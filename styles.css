@@ -4,11 +4,10 @@
 
 /*style the body with background, h1, h3 */
 
-/*create class for image background */
+/*creates transparancy by 50% in background*/
 	.imageclass {
-		background-image:url("running.png");
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
+		opacity: 0.5;
+    	filter: alpha(opacity=50)
 	}
 	
 /*create a class for image background (2) */
@@ -26,16 +25,19 @@
 	}
 	
 h1 {
-	color:blue;
+	color: lightslategrey;
 	font-family: "Time new Roman", Times, serif;
 	font-size: 40px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px darkslategray, 0 0 5px darkblue;
 }
 
 /*directly style the heading h3*/
 h3{
-	color: powderblue;
+	color:white;
 	font-family: "Time new Roman", Times, serif;
 	font-size: 30px;
+	text-shadow: 1px 1px 2px black, 0 0 25px darkslategray, 0 0 5px darkblue
 }
 
 /*Font classes*/
